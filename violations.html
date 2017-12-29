@@ -1,0 +1,11 @@
+﻿{% extends "app/layout.html" %}
+
+{% block content %}
+<a href="{% url 'violation_new' %}">Новое ТН</a>
+<ul>
+{% for vio in violations %}
+    <p><h2><a href="{% url 'violation_detail' violation_id=vio.pk %}">{{ vio.pk }} {{ vio.id }} {{ vio.department }} {{ vio }}</a></h2></p>
+{% endfor %}
+</ul>
+{% endblock %}
+

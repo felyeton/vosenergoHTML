@@ -1,0 +1,13 @@
+﻿{% extends "app/layout.html" %}
+
+{% block content %}
+    <h1>Новое ТН</h1>
+    <form method="POST" class="post-form">
+        {% csrf_token %}
+        <table style="background-color: #f0f0f0; color: blue; width: 500px; align:left;">
+        {{ form.as_table }}
+        </table>
+        <button type="submit" class="save btn btn-default">Save</button>
+    </form>
+{% endblock %}
+

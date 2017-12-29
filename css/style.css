@@ -1,0 +1,76 @@
+body {
+    font: 10pt Arial, Helvetica, sans-serif; /* Шрифт на веб-странице */
+    /*background: #e1dfb9;  Цвет фона */
+    background: #f0f0f0; /* Цвет фона */
+}
+
+        h2 {
+            font-size: 1.1em; /* Размер шрифта */
+            color: #800040; /* Цвет текста */
+            margin-top: 0; /* Отступ сверху */
+        }
+        .tab {
+            display: inline-block;
+            margin: 0px;
+        }
+
+        .vioGrid {
+            background: #f0f0f0;
+            /*border: 1px solid black;*/
+            padding: 10px;
+            margin: 10px;
+        }
+
+.pGrid {
+
+    margin: 0px;
+}
+
+.pGridHeader {
+    /*border-bottom: 1px solid black;
+    border-top: 1px solid black;*/
+    background: #d7d7d7;
+    height: 100%;
+    width: 60%;
+    float:left;
+}
+
+
+        #container {
+            width: 100%; /* Ширина слоя */
+            margin: 0 auto; /* Выравнивание по центру */
+            background: #f0f0f0; /* Цвет фона левой колонки */
+        }
+
+        #header {
+            font-size: 1.1em; /* Размер текста */
+            text-align: left; /* Выравнивание по центру */
+            padding: 5px; /* Отступы вокруг текста */
+            background: #8fa09b; /* Цвет фона шапки */
+            color: #ffe; /* Цвет текста */
+        }
+
+        #sidebar {
+            margin-top: 10px;
+            width: 110px; /* Ширина слоя */
+            padding: 0 10px; /* Отступы вокруг текста */
+            float: left; /* Обтекание по правому краю */
+        }
+
+        #content {
+            /*margin-left: 130px;*/ /* Отступ слева */
+            padding: 10px; /* Поля вокруг текста */
+            background: #fff; /* Цвет фона правой колонки */
+        }
+
+        #footer {
+            background: #8fa09b; /* Цвет фона подвала */
+            color: #fff; /* Цвет текста */
+            padding: 5px; /* Отступы вокруг текста */
+            clear: left; /* Отменяем действие float */
+        }
+
+        #tabel{
+            display: inline-block; 
+            margin: 0px;
+        }

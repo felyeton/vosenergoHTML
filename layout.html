@@ -1,0 +1,99 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Воскресенские электрические сети</title>
+
+    <!--{% load staticfiles %}  
+	<link rel="stylesheet" type="text/css" href="{% static 'app/css/style.css' %}" />-->
+    
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+	
+    <!--[if IE]>
+     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <div id="container">
+        <div id="header">
+            <a href="/">Воскресенские электрические сети</a>
+            <div class="tab">
+                <ul class="tab">
+					<!--<li class="tab"><a href="">Ссылка 1</a></li>-->
+                    <!--<li class="tab"><a href="">Ссылка 2</a></li>-->
+                    <!--<li class="tab"><a href="">Ссылка 3</a></li>-->
+                </ul>
+            </div>
+        </div>
+        <!--<div id="sidebar">-->
+            <!--<p><a href="">Форма 1</a></p>-->
+            <!--<p><a href="">Форма 2</a></p>-->
+            <!--<p><a href="">Форма 3</a></p>-->
+        <!--</div>-->
+        <div id="content">
+		
+		<!--{% block content %}
+		{% endblock %}-->
+            <div class="vioGrid">
+ 
+                
+                <p class="pGridHeader pGrid">
+
+                    <a href="">
+
+                        [03.02.2016 19:25:00] -
+
+                        [03.02.2016 19:25:00]
+                        Воскресенское ПО
+                    </a>
+</p>
+                <p class="pGrid">
+                    Причина не установлена
+
+                </p>
+
+                <p class="pGrid">
+                    Аварийное отключение МВ в ТП-5 ф. ТП-55 из-за межфазного замыкания на КЛ-6кВ ТП-55 ф. ТП-39.
+                </p>
+
+                
+            </div>
+
+            <div class="vioGrid">
+
+                <p>
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diem nonummy
+                    nibh euismod tincidunt ut lacreet dolore magna aliguam erat volutpat. Ut wisis
+                    enim ad minim veniam, quis nostrud exerci tution ullamcorper suscipit lobortis
+                    nisl ut aliquip ex ea commodo consequat.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diem nonummy
+                    nibh euismod tincidunt ut lacreet dolore magna aliguam erat volutpat. Ut wisis
+                    enim ad minim veniam, quis nostrud exerci tution ullamcorper suscipit lobortis
+                    nisl ut aliquip ex ea commodo consequat.
+                </p>
+            </div>
+            <div class="vioGrid">
+                Во-первых, нашел где лежит этот красивый календарик и как он прилеплен к полю ввода: DateTimeShortcuts.js, в нём и инструкция:
+
+                // Inserts shortcut buttons after all of the following:
+
+                Только потом правда оказалось, что этот файл не работает
+                без других, а именно без i18n.js, core.js и calendar.js —
+                их тоже надо включить в шаблон, который будет использоваться
+                для отображения формы. А ещё файлы со стилями, по-моему их
+                тоже было несколько, но я взял только необходимое и скопировал
+                в свой calendar.css, чтобы потом спокойно модифицировать —
+                настраивается там всё на ура. Скрипты я, кстати,
+                тоже перетащил в свою папку, потому что с одной стороны
+                как-то не серьёзно, когда что-то включается с путём /admin/,
+                а с другой стороны «вдруг надо будет подправить» (понадобилось).
+            </div>
+        </div>
+        <div id="footer">АО Мособлэнерго, филиал Воскресенские электрические сети</div>
+    </div>
+</body>
+
+</html>
